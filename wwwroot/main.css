@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #121212;
+    color: #FFFFFF;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 2em;
+    border: 1px solid #333333;
+    border-radius: 4px;
+    background-color: #202020;
+}
+
+input[type="text"] {
+    padding: 0.5em;
+    border: 1px solid #666666;
+    border-radius: 4px;
+    background-color: #303030;
+    color: #FFFFFF;
+}
+
+input[type="password"] {
+    padding: 0.5em;
+    border: 1px solid #666666;
+    border-radius: 4px;
+    background-color: #303030;
+    color: #FFFFFF;
+}
+
+
+button {
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 4px;
+    background-color: #004F9F;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #003E7E;
+}
+
+#result-value {
+    background-color: #303030;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.valid {
+    background-color: darkgreen !important;
+}
+
+.invalid {
+    background-color: darkred !important;
+}
